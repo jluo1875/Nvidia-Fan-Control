@@ -1,5 +1,5 @@
 # NvidiaGPUFanControl
-Fan Control for Nvidia GPUs.
+Fan Control for Nvidia GPUs in Python scripts. It gives control back to the driver after work is finished, can be used as standalone script. 
 
 # Setup
 Controlling nvidia gpu fan requires an `X` server to be running.
