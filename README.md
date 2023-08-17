@@ -4,7 +4,7 @@ Fan Control for Nvidia GPUs in Python scripts. It gives control back to the driv
 # Setup
 Controlling nvidia gpu fan requires an `X` server to be running.
 
-Setup x config in a shell like below. You may need to use `sudo`.
+Setting up X config is below. 
 
 ```
 $ nvidia-xconfig --enable-all-gpus --cool-bits=7 --connected-monitor=Monitor0 --allow-empty-initial-configuration --force-generate
