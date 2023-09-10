@@ -1,7 +1,7 @@
 # NvidiaGPUFanControl
 Fan Control for Nvidia GPUs for Linux. It gives control back to the driver after work is finished, can be used as standalone Python script. 
 
-# Setup
+# How to Setup
 Controlling nvidia gpu fan requires an `X` server to be running and be on Linux.
 
 Setting up X config is below. 
@@ -15,7 +15,7 @@ $ xinit &
 ```
 $ pip install gpufan
 ```
-# Usage
+# How to Use
 You can use command line script:
 
 ```
