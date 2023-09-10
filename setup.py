@@ -20,7 +20,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    python_requires='>=3',
+    python_requires='>=2',
     keywords='machinelearning ai pytorch tensorflow torch nvidia gpu fan',
     packages=find_packages(exclude=['docs', 'tests']),
     setup_require=['pytest-runner'],
