@@ -1,4 +1,4 @@
-# NvidiaGPUFanControl
+# Nvidia GPU Fan Control
 Fan Control for Nvidia GPUs for Linux. It gives control back to the driver after work is finished, can be used as standalone Python script. 
 
 # How to Setup
