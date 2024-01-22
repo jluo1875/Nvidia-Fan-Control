@@ -22,7 +22,7 @@ You can use command line script:
 $ gpufan constant -g 0 -s 60
 ```
 
-Or in your python script:
+Or in a python script:
 
 ```python
 import gpufan
