@@ -1,10 +1,10 @@
 # Nvidia GPU Fan Control
-Fan Control for Nvidia GPUs for Linux. It gives control back to the driver after work is finished, can be used as standalone Python script. 
+Fan Control for Nvidia GPUs for Linux. It gives control back to the driver after work is finished, can be used as standalone Python script. It was a passion project of mine, being a learning experience into how drivers and fan curves work. 
 
 # How to Setup
 Controlling nvidia gpu fan requires an `X` server to be running and be on Linux.
 
-Follow these commands to set up X config. 
+Follow these commands to set up the X server. 
 
 ```
 $ nvidia-xconfig --enable-all-gpus --cool-bits=7 --connected-monitor=Monitor0 --allow-empty-initial-configuration --force-generate
